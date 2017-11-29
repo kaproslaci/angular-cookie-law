@@ -55,7 +55,7 @@ angular.module('angular-cookie-law')
             }
 
             template =
-              '<div class="cl-banner"><p>' + options.message + '<br>' + acceptButton + declineButton + policyButton + '</p></div>';
+              '<div class="cl-banner"><p>' + options.message  + acceptButton + declineButton + policyButton + '</p></div>';
 
             element.html(template);
             $compile(element.contents())(scope);
